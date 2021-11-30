@@ -105,11 +105,17 @@ ul {
 .welcome .set-width {
 	display: flex;
 	align-items: center;
+	gap: 50px;
+	padding: 70px 16px;
 }
 
 .welcome-text,
 .crab {
-	flex: 1;
+	flex: auto;
+}
+
+.welcome-text button {
+	margin: 14px 0;
 }
 
 .crab img {
