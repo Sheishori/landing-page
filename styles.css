@@ -38,6 +38,10 @@ button,
 	font-weight: 600;
 }
 
+.set-width {
+	max-width: 1200px;
+}
+
 .header,
 .welcome,
 .footer {
@@ -51,8 +55,27 @@ button,
 	font-size: 18px;
 }
 
+.header,
+.welcome,
+.gallery,
+.quote,
+.call-to-action,
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+.welcome img {
+	max-width: 500px;
+}
+
 .pictures {
 	color: #555;
+}
+
+.pictures img {
+	max-width: 170px;
 }
 
 .quote {
