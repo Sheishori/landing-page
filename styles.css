@@ -39,7 +39,7 @@ a {
 }
 
 button,
-.call-to-action {
+.call-to-action .set-width {
 	background-color: #3882f6;
 	color: #F9FAF8;
 	font-size: 18px;
@@ -160,30 +160,27 @@ ul {
 	font-size: 36px;
 	font-weight: 300;
 	font-style: italic;
-	padding: 0px 60px;
+	padding: 0px 100px;
 }
 
 .quote-source {
 	font-size: 24px;
 	font-weight: 600;
 	text-align: right;
-	padding-right: 50px;
+	padding-right: 120px;
 }
 
 .call-to-action {
-	align-self: center;
-	max-width: 1000px;
 	margin: 100px;
 }
 
 .call-to-action .set-width {
+	box-sizing: border-box;
+	max-width: 1020px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 40px 100px;
-}
-
-.call-text {
 }
 
 .call-text div {
