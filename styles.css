@@ -30,6 +30,8 @@ h2 {
 
 ul {
 	list-style: none;
+	display: flex;
+	gap: 26px;
 }
 
 a {
@@ -79,6 +81,15 @@ button,
 	flex: 1;
 }
 
+.header {
+	padding: 16px;
+}
+
+.header .set-width {
+	display: flex;
+	justify-content: space-between;
+}
+
 .welcome img {
 	max-width: 500px;
 }
@@ -105,4 +116,9 @@ button,
 .quote-source {
 	font-size: 24px;
 	font-weight: 600;
+}
+
+.footer {
+	text-align: center;
+	padding: 40px;
 }
