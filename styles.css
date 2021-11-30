@@ -90,16 +90,34 @@ button,
 	justify-content: space-between;
 }
 
-.welcome img {
-	max-width: 500px;
+.welcome .set-width {
+	display: flex;
+	align-items: center;
+}
+
+.welcome-text,
+.crab {
+	flex: 1;
+}
+
+.crab img {
+	max-width: 100%;
+}
+
+.gallery {
+	text-align: center;
 }
 
 .pictures {
 	color: #555;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
+.pictures div,
 .pictures img {
-	max-width: 170px;
+	max-width: 150px;
 }
 
 .quote {
@@ -116,6 +134,12 @@ button,
 .quote-source {
 	font-size: 24px;
 	font-weight: 600;
+}
+
+.call-to-action .set-width {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer {
